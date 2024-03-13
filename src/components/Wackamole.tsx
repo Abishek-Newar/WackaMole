@@ -5,7 +5,7 @@ const Wackamole = () => {
     const box:number = 9;
     const [score,setScore] = useState<number>(0);
     const [position,setPositon] = useState<number>(0);
-    const [seconds,setSeconds] = useState<number>(30);
+    const [seconds,setSeconds] = useState<number>(15);
     const [game,setGame] = useState<boolean>(false);
 
 
