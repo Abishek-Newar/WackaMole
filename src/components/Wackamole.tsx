@@ -45,7 +45,7 @@ const Wackamole = () => {
             <button className=" py-3 px-6 rounded-lg bg-green-500 hover:bg-green-700 transition-all ease-in-out duration-500 text-white text-xl font-bold" onClick={()=>{
                 setGame(false);
                 setScore(0);
-                setSeconds(30);
+                setSeconds(15);
             }}>Restart</button>
         </div>
       }
