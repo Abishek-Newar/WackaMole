@@ -39,7 +39,7 @@ const Wackamole = () => {
 
 
       if(game){
-        return <div className="flex flex-col gap-9 bg-stone-200 items-center justify-center h-screen">
+        return <div className="flex flex-col gap-9 bg-stone-200 items-center justify-center h-screen select-none">
             <img src={dead} alt="" className="w-32 h-32" />
             <h1 className="lg:text-9xl text-6xl italic  text-red-600 font-extrabold ">Game Over</h1>
             <button className=" py-3 px-6 rounded-lg bg-green-500 hover:bg-green-700 transition-all ease-in-out duration-500 text-white text-xl font-bold" onClick={()=>{
